@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Next.js
+frontend/.next/
+frontend/out/
+build/
+dist/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment files
+.env
+.env*.local
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
